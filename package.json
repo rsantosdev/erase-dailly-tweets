@@ -1,0 +1,29 @@
+{
+  "name": "erase-dailly-tweets",
+  "version": "1.0.0",
+  "description": "Simple tool to erase tweets on a dailly basis",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rsantosdev/erase-dailly-tweets.git"
+  },
+  "keywords": [
+    "node",
+    "cron",
+    "twitter"
+  ],
+  "author": "rsantosdev",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/rsantosdev/erase-dailly-tweets/issues"
+  },
+  "homepage": "https://github.com/rsantosdev/erase-dailly-tweets#readme",
+  "dependencies": {
+    "cron": "^1.2.1",
+    "moment": "^2.17.1",
+    "twit": "^2.2.5"
+  }
+}
